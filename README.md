@@ -1,4 +1,4 @@
-# 🖥️ AWS Lambda - Função Olá Mundo
+# 🖥️ AWS Lambda
 
 Este repositório contém uma função simples criada diretamente no console da AWS Lambda, escrita em Python. A função recebe um nome via JSON e retorna uma mensagem personalizada.
 
