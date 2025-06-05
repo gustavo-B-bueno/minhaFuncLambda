@@ -19,16 +19,6 @@ Ela responde com uma saudação personalizada. Se nenhum nome for fornecido, res
 
 ---
 
-## 🚀 Código da Função
-
-```python
-def lambda_handler(event, context):
-    nome = event.get("nome", "visitante")
-    return {
-        "statusCode": 200,
-        "body": f"Olá, {nome}! Sua função Lambda está funcionando com sucesso."
-    }
-
 ## Como executar
 Faça o deploy da função Lambda no AWS.
 Teste no console Lambda passando o evento JSON.
@@ -40,3 +30,16 @@ Insira um evento de teste.
 
 ## Observações
 A função é simples e não acessa nenhum recurso externo, logo não há necessidade de permissões especiais.
+
+
+## 🚀 Código da Função
+
+```python
+def lambda_handler(event, context):
+    nome = event.get("nome", "visitante")
+    return {
+        "statusCode": 200,
+        "body": f"Olá, {nome}! Sua função Lambda está funcionando com sucesso."
+    }.
+
+
