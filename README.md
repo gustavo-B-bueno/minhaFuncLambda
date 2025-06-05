@@ -1,4 +1,4 @@
-# AWS Lambda - Função Olá Mundo
+# AWS Lambda 
 
 Este projeto contém um exemplo simples de função AWS Lambda escrita em Python. A função recebe um nome via `event` e retorna uma mensagem personalizada.
 
